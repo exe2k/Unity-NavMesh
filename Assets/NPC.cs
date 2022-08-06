@@ -9,14 +9,10 @@ public class NPC : MonoBehaviour
     Animator anim;
     public Transform Target;
     [SerializeField] [Min(0)] float speed;
-
-    bool isOnTheWay;
-    float waitOnStart = 1;
-
+    const float REACH_DISTANCE = 2f;
 
     void Start()
     {
-        isOnTheWay = false;
         navAgent = GetComponent<NavMeshAgent>();
         anim = GetComponent<Animator>();
         navAgent.destination = Target.position;
@@ -34,10 +30,11 @@ public class NPC : MonoBehaviour
         navAgent.speed = speed;
         navAgent.destination = Target.position;
 
-        if (navAgent.remainingDistance > 1)
+        if (navAgent.remainingDistance > REACH_DISTANCE)
         {
             anim.SetBool("Run", true);
             anim.SetBool("Target", false);
+
         }
 
     }
@@ -47,9 +44,8 @@ public class NPC : MonoBehaviour
         if (col.tag != "Target") return;
 
         anim.SetBool("Run", false);
-        if (anim.GetBool("Target") != true)
-            anim.SetBool("Target", true);
-        print("Finished");
+        anim.SetBool("Target", true);
+        print("Reached! Remaining distance: "+ navAgent.remainingDistance);
 
     }
 
