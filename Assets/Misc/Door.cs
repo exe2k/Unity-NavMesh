@@ -23,7 +23,6 @@ public class Door : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
         offsetY *= transform.lossyScale.y;
         realDoor = transform.GetChild(0).gameObject;
-        print("Im Loaded: " + name);
     }
 
     void LockDoor()
