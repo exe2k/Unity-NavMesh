@@ -1,14 +1,14 @@
 # Unity-NavMesh
-Developer: Andreas Li.
+_Developer: Andreas Li._
 
 ## Tasks: 
 **1.7**
 - Create a level with a "ProBuilder" tool
 
 **1.14:**
-- Create a labyrinth with not less than 10 corners using ProBuilder 
+- Create a labyrinth with over 10 corners using ProBuilder 
 - Add a NavMesh
-- Add at least one NavMesh Agent
+- Add at least one Agent
 - Add Dynamic obstacles
 - The Agent should has a Target
 
