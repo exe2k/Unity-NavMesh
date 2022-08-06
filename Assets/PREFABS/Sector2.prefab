@@ -54,7 +54,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &5757848120347519517
 Transform:
@@ -398,7 +398,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &6865033129980267321
 Transform:
@@ -735,6 +735,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2823410932030020145, guid: b6fbc07adf1acc249b462e15b2050a56,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2935903331514589000, guid: b6fbc07adf1acc249b462e15b2050a56,
         type: 3}
       propertyPath: m_Mesh
@@ -749,6 +754,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2935903331514589007, guid: b6fbc07adf1acc249b462e15b2050a56,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2935903331514589044, guid: b6fbc07adf1acc249b462e15b2050a56,
         type: 3}
@@ -4220,6 +4230,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 2935903331971668809, guid: b6fbc07adf1acc249b462e15b2050a56,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2935903331971668810, guid: b6fbc07adf1acc249b462e15b2050a56,
         type: 3}
       propertyPath: m_Mesh
@@ -4255,6 +4270,11 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 1958
       objectReference: {fileID: 0}
+    - target: {fileID: 4718281129542013243, guid: b6fbc07adf1acc249b462e15b2050a56,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4896786542734202823, guid: b6fbc07adf1acc249b462e15b2050a56,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4266,6 +4286,16 @@ PrefabInstance:
       value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 5939487403979003350, guid: b6fbc07adf1acc249b462e15b2050a56,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6001081046179586273, guid: b6fbc07adf1acc249b462e15b2050a56,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7051580629999042148, guid: b6fbc07adf1acc249b462e15b2050a56,
         type: 3}
       propertyPath: m_Mesh
       value: 
@@ -4295,6 +4325,11 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 2289
       objectReference: {fileID: 0}
+    - target: {fileID: 9129394865309672143, guid: b6fbc07adf1acc249b462e15b2050a56,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b6fbc07adf1acc249b462e15b2050a56, type: 3}
 --- !u!4 &3899549428149034373 stripped
@@ -4310,10 +4345,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8789123542489147891}
     m_Modifications:
+    - target: {fileID: 659232889269037825, guid: 077232ad86dd7fc4c9e301a14877e076,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2746422371049932944, guid: 077232ad86dd7fc4c9e301a14877e076,
         type: 3}
       propertyPath: m_Name
       value: Wall_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2746422371049932944, guid: 077232ad86dd7fc4c9e301a14877e076,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2746422371049932950, guid: 077232ad86dd7fc4c9e301a14877e076,
         type: 3}
