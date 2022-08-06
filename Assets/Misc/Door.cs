@@ -6,10 +6,10 @@ public class Door : MonoBehaviour
 {
     [SerializeField] AudioClip clip;
     AudioSource audioSource;
-    [SerializeField] bool isUnlocked;
+    public bool isUnlocked;
     [SerializeField] float speed = 2;
     bool isInit=false;
-    float offsetY = 4;
+    float offsetY = 4.5f;
     GameObject realDoor;
 
     private void Update()
@@ -25,7 +25,7 @@ public class Door : MonoBehaviour
         realDoor = transform.GetChild(0).gameObject;
     }
 
-    void LockDoor()
+    public void LockDoor()
     {
 
         if (isUnlocked)

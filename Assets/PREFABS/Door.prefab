@@ -157,6 +157,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door
       objectReference: {fileID: 0}
+    - target: {fileID: 2801007745323228916, guid: cd89059452021b047ba70eec346aee2c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2801007745323228917, guid: cd89059452021b047ba70eec346aee2c,
         type: 3}
       propertyPath: m_Mesh
@@ -14745,7 +14750,7 @@ PrefabInstance:
     - target: {fileID: 2801007745323228926, guid: cd89059452021b047ba70eec346aee2c,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 0.88789
       objectReference: {fileID: 0}
     - target: {fileID: 2801007745323228926, guid: cd89059452021b047ba70eec346aee2c,
         type: 3}
@@ -14815,3 +14820,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2256515767074633178}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &4147793912156056366 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2801007745323228916, guid: cd89059452021b047ba70eec346aee2c,
+    type: 3}
+  m_PrefabInstance: {fileID: 2256515767074633178}
+  m_PrefabAsset: {fileID: 0}
+--- !u!208 &2176042450649639145
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4147793912156056366}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 2.3360002, y: 0.303, z: 3.2430003}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.18300001, y: -0.120000005, z: 0.001}
+  m_TimeToStationary: 0.5

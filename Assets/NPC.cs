@@ -8,12 +8,18 @@ public class NPC : MonoBehaviour
     NavMeshAgent navAgent;
     Animator anim;
     public Transform Target;
+    [SerializeField] [Min(0)] float speed;
+
+    bool isOnTheWay;
+    float waitOnStart = 1;
 
 
     void Start()
     {
+        isOnTheWay = false;
         navAgent = GetComponent<NavMeshAgent>();
         anim = GetComponent<Animator>();
+        navAgent.destination = Target.position;
     }
 
     void Update()
@@ -23,10 +29,29 @@ public class NPC : MonoBehaviour
 
     protected void Navigate()
     {
-        if (Target == null) return;
+        if (Target == null || speed == 0) return;
 
+        navAgent.speed = speed;
         navAgent.destination = Target.position;
-        anim.SetBool("Run", (navAgent.remainingDistance >1));
+
+        if (navAgent.remainingDistance > 1)
+        {
+            anim.SetBool("Run", true);
+            anim.SetBool("Target", false);
+        }
 
     }
+
+    private void OnTriggerEnter(Collider col)
+    {
+        if (col.tag != "Target") return;
+
+        anim.SetBool("Run", false);
+        if (anim.GetBool("Target") != true)
+            anim.SetBool("Target", true);
+        print("Finished");
+
+    }
+
+
 }
