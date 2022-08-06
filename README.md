@@ -1,6 +1,10 @@
 # Unity-NavMesh
 _Developer: Andreas Li._
 
+1. [X] Level 
+2. [ ] NavMesh 
+3. [X] GitRepo 
+
 ## Tasks: 
 **1.7**
 - Create a level with a "ProBuilder" tool
