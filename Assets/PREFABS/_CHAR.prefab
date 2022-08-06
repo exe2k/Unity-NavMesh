@@ -2219,14 +2219,13 @@ MonoBehaviour:
   - {fileID: 8300000, guid: badf86f0a42d0674496049827988815d, type: 3}
   - {fileID: 8300000, guid: ce0ffbdb43cdf5143934ff43351a4aeb, type: 3}
   target:
-  - {fileID: 8300000, guid: 0b29ecafeed0bbf49b2874d7898ccdd7, type: 3}
   - {fileID: 8300000, guid: 90c437b5168e2fb4fba51757f4984863, type: 3}
+  - {fileID: 8300000, guid: 0b29ecafeed0bbf49b2874d7898ccdd7, type: 3}
   longWay:
   - {fileID: 8300000, guid: a9fe7b46ba13f7348ad15283eeb74db1, type: 3}
-  - {fileID: 8300000, guid: 6dcacaeeea8e0cb46bc504a7718cb7cd, type: 3}
   - {fileID: 8300000, guid: 13d0e92ce263af542989e18eb0cf983f, type: 3}
   targetNull:
-  - {fileID: 8300000, guid: 137439584c959a34aa608f2f0a06eff8, type: 3}
+  - {fileID: 8300000, guid: dff32ed7db58cf249a8a70082fb4bce8, type: 3}
 --- !u!195 &2982254956755467769
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -2236,7 +2235,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 8415228160068762887}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.4
+  m_Radius: 0.67
   m_Speed: 3.5
   m_Acceleration: 10.3
   avoidancePriority: 50
@@ -2248,7 +2247,7 @@ NavMeshAgent:
   m_Height: 1.67
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
+  m_ObstacleAvoidanceType: 2
 --- !u!54 &5866666021719045025
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2334,7 +2333,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 0.422
       inSlope: 0
       outSlope: 0
       tangentMode: 0

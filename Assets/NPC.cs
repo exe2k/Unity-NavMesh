@@ -81,7 +81,7 @@ public class NPC : MonoBehaviour
         Say(finish);
         isSaidAboutLongWay = false;
         isSaidAboutTarget = false;
-
+        foundTargets++;
         print("Reached! Remaining distance: " + navAgent.remainingDistance);
 
     }
