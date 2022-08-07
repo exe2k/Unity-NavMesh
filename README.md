@@ -1,8 +1,11 @@
 # Unity-NavMesh
 _Developer: Andreas Li._
 
+Here' my NavMesh example made in Unity3D 2021. 
+PS: ~~ProBuilder sux~~ 😇
+
 1. [X] Level 
-2. [ ] NavMesh 
+2. [X] NavMesh 
 3. [X] GitRepo 
 
 ## Tasks: 
@@ -21,5 +24,4 @@ _Developer: Andreas Li._
 - Make at least one branch
 - Pull request
 
-Here' my NavMesh example made in Unity3D 2021. 
-PS: ~~ProBuilder sux~~ 😇
+
